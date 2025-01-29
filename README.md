@@ -1,4 +1,6 @@
-### ***HNG Task One - Public API***
+### ***README***
+
+### **HNG Task One - Public API**
 This is a simple Node.js and Express.js API built with TypeScript. It returns:
 
 - My registered email on the HNG12 Slack workspace
