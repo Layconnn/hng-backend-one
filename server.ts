@@ -5,11 +5,13 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT;
+const currentDateTime = new Date().toISOString();
+
 
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     email: process.env.EMAIL, // Set this in a .env file
-    current_datetime: new Date().toISOString(),
+    current_datetime: currentDateTime,
     github_url: process.env.GITHUB,
   });
 });
