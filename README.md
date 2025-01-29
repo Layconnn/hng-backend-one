@@ -1,4 +1,4 @@
-### ***README***
+***README***
 
 ### **HNG Task One - Public API**
 This is a simple Node.js and Express.js API built with TypeScript. It returns:
@@ -20,14 +20,15 @@ Ensure you have the following installed:
 
 ## ***Clone the Repository***:
 # In your terminal:
-git clone https://github.com/Layconnn/hng-backend-one.git
-cd hng-backend-one
+`cd desktop`
+`git clone https://github.com/Layconnn/hng-backend-one.git`
+`cd hng-backend-one`
 
 ##  ***Install Dependencies***:
-npm install
+`npm install`
 
 ## **Run the Server**:
-npm run dev
+`npm run dev`
 
 
 ### ***API Documentation***
@@ -37,42 +38,44 @@ npm run dev
 - Response Type: JSON
 - Status Code: 200 OK
   
-## **Example Usage**:
+## ***Example Usage***:
 Using curl:
 curl -X GET http://localhost:5000
 
-## **Response Format**
+## ***Response Format***
+```json
 {
   "email": "myemail@gmail.com",
   "current_datetime": "2025-01-29T16:27:52.265Z",
   "github_url": "mygithub.com"
 }
+```
 
-## **Deployment**
+## ***Deployment***
 The API can be deployed to several platforms, such as:
+- **Heroku**
+- **Vercel**
+- **DigitalOcean**
+- **AWS (Amazon Web Services)**
+- **Render**
 
-**Heroku**
-**Vercel**
-**DigitalOcean**
-**AWS (Amazon Web Services)**
-**Render**
+## ***For example, deploy to Heroku:***
 
-- ## **For example, deploy to Heroku:**
-## **Install the Heroku CLI.**
+**Install the Heroku CLI.**
 - Log in to Heroku via the terminal:
-heroku login
+`heroku login`
 
 - Create a new Heroku app:
-heroku create hng-task-one
+`heroku create hng-task-one`
 
 - Push the code to Heroku:
-git push heroku master
+`git push heroku master`
 
 - Open the deployed API:
-heroku open
+`heroku open`
 
 
-**Technologies Used**
+## ***Technologies Used***
 - Node.js - Server-side runtime
 - Express.js - Web framework
 - TypeScript - Typed JavaScript
@@ -80,6 +83,6 @@ heroku open
 - Dotenv - Environment variable management
 
 ***Author***
-👨‍💻 Olamilekan Jinadu
-📧 Email: olamilekanjinadu21@gmail.com
-🔗 GitHub: Layconnn
+- Olamilekan Jinadu
+- Email: olamilekanjinadu21@gmail.com
+- GitHub: Layconnn
