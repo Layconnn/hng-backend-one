@@ -20,9 +20,9 @@ Ensure you have the following installed:
 
 ## ***Clone the Repository***:
 # In your terminal:
-`cd desktop`
-`git clone https://github.com/Layconnn/hng-backend-one.git`
-`cd hng-backend-one`
+- `cd desktop`
+- `git clone https://github.com/Layconnn/hng-backend-one.git`
+- `cd hng-backend-one`
 
 ##  ***Install Dependencies***:
 `npm install`
