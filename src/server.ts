@@ -1,9 +1,12 @@
 import express, { Request, Response } from "express";
 import dotenv from "dotenv";
+import cors from 'cors';
+
 
 dotenv.config();
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT;
 const currentDateTime = new Date().toISOString();
 
