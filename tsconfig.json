@@ -10,6 +10,6 @@
     "rootDir": "./",         // Input directory for TS files (root directory)
     "moduleResolution": "node"
   },
-  "include": ["*.ts"],       // Include all TS files in the root directory
+  "include": ["*.ts", "src/server.ts"],       // Include all TS files in the root directory
   "exclude": ["node_modules"]
 }
