@@ -86,3 +86,6 @@ The API can be deployed to several platforms, such as:
 - Olamilekan Jinadu
 - Email: olamilekanjinadu21@gmail.com
 - GitHub: Layconnn
+
+***Backlink related to my chosen programming language:***
+- [Hire Hng Nodejs Devs](https://hng.tech/hire/nodejs-developers)
